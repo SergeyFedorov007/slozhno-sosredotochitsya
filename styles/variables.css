@@ -2,18 +2,20 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
-:root {
-    --bg-color: #000028;
-    --headers-color: #000028;
-    --text-color: #F1B2CE;
-    --main-color: #FF0070;
-    --heading-accent-color: #DB00FF;
-    --main-font-size: 18px;
-    --padding-page: 10px;
-    --heading-font-size: 157px;
-    --visibility: visible;
-    --margin-block-header: 40px;
-    --main-font-family: 'IBM Plex mono', monospace;
-    --bg-image: url(../images/cover-image-dark.png);
-
+.page.theme_light {
+    --main-text-color: #353430;
+    --title-color: #ffc2e6;
+    --title-shadow: #ff0070;
+    --title-decor: #ff8dcb;
+    --title-section: var(--main-text-color);
+    --hover-color: 1px solid rgba(50, 49, 45, 0.4);
+    --background-color: var(--main-text-color);
+    --background-image: url(../images/cover-image-light.png);
+    --article-title-color: var(--main-text-color);
+    --section-title-color: var(--main-text-color);
+    --border-color: var(--title-shadow);
+    --corners-color: var(--main-text-color);
+    --link-shadow: var(--title-color);
+    --rec-color: var(--background-color);
+    --rec-decor-visibility: hidden;
 }
