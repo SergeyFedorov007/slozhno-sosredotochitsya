@@ -6,6 +6,8 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-position:center;
+
 }
 
 .main {
@@ -58,6 +60,7 @@
 }
 
 .header__decoration-element::before {
+  text-transform: capitalize;
   content: "REC";
   font-family: "IBM Plex Mono", "Arial", sans-serif;
   font-size: 18px;
@@ -73,7 +76,7 @@
   border-radius: 50%;
   inline-size: 9px;
   block-size: 9px;
-  box-shadow: 0 0 2px 2px var(--title-shadow);
+  box-shadow: 0 0 4px 2px var(--title-shadow);
   background: var(--title-shadow);
 }
 
