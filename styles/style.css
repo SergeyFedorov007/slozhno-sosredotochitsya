@@ -3,6 +3,7 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   background-image: var(--background-image);
+  background-color: var(--background-color);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -60,7 +61,7 @@
 }
 
 .header__decoration-element::before {
-  text-transform: capitalize;
+  text-transform: uppercase;
   content: "REC";
   font-family: "IBM Plex Mono", "Arial", sans-serif;
   font-size: 18px;

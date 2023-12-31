@@ -15,7 +15,7 @@ themeButtons.forEach((button) => {
     ) {
       changeTheme('dark');
     } else {
-      changeTheme('auto');
+      changeTheme('dark');
     }
     button.classList.add('header__theme-menu-button_active');
     button.setAttribute('disabled', true);

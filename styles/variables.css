@@ -9,7 +9,7 @@
     --title-decor: #ff8dcb;
     --title-section: var(--main-text-color);
     --hover-color: 1px solid rgba(50, 49, 45, 0.4);
-    --background-color: var(--main-text-color);
+    --background-color: #000028;
     --background-image: url(../images/cover-image-light.png);
     --article-title-color: var(--main-text-color);
     --section-title-color: var(--main-text-color);
